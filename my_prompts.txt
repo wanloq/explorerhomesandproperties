@@ -1,0 +1,135 @@
+# MY PROMPTS USED TO GENERATE THE ORIGINAL SITE
+
+
+## PROMPT 1
+
+Hello Deepseek
+You are a world-class team consisting of:
+
+* Senior Product Designer
+* Senior UX Researcher
+* Award-winning UI Designer
+* Senior Frontend Engineer
+* Senior Tailwind CSS CLI Expert
+* Accessibility Expert
+* SEO Specialist
+* CRO (Conversion Rate Optimization) Expert
+* Motion Designer
+* Performance Engineer
+
+You have previously worked on products for Airbnb, Sotheby's Realty, Zillow, The Agency Real Estate, Stripe and Apple.
+
+I want to create a new real estate property sales website for an existing company called Explorer Homes and Properties based in Lagos (Please read more about the company at https://explorerhomesandproperties.com/).
+
+Your job is to design a premium, modern, high-converting but simple glassmorphic mobile-first tailwind website consisting of very simple, modern, short and distraction free pages a website that feels trustworthy, luxurious and loads fast.
+
+Do NOT create a generic template.
+Design something worthy of being featured on Awwwards.
+
+Your Tech Stack is:
+HTML5
+Tailwind CSS v4 CLI (Not Play CDN)
+Fontawesome Icons
+N0 JavaScript 
+No frameworks
+No jQuery
+No Bootstrap
+No React
+No Vue
+No Angular
+No build tools.
+Production-ready
+Well commented
+Component-based organization
+Readable
+Maintainable
+Consistent naming
+Create a standard input.css file
+No duplicated code
+No inline CSS
+No inline JavaScript, 
+No tailwind.config.js
+The site should run by simply opening index.html or serving it via a static server.
+
+
+The color pallet should be:
+Primary: #0F3D2E
+Gold #D4AF37
+Gray
+
+Mobile-First approach:
+Design for:
+375px first
+
+Then:
+768px
+1024px
+1280px
+1536px
+
+SEO:
+Use semantic HTML.
+Proper heading hierarchy.
+Meta tags.
+Schema markup.
+Open Graph.
+Twitter Cards.
+Canonical URLs.
+Robots.
+Sitemap ready.
+
+I want consistent sticky headers and footers across all pages
+I want a simple homepage with:
+* A 2-column hero section with full immersive background image a premium headline and supporting text on the left side, simple search bar on the right and Animated statistics as a full strip under the two hero columns.
+* Featured properties section with 4 glassmorphic property cards and trust badges, hover animation, wishlist icon, location, a learn more button that leads to the property details page
+* Why choose us section with bullet-point benefits including(Verified Titles, Flexible Payment, Prime Locations, Registered Company, Professional Support, 
+* Testimonials carousel with 8 testimonials including the client photo, comment, client social media link, google review star rating
+* Slim Sticky and Glassmorphic Footer with Social links, Navigation, Office information, Copyright
+
+Generate the complete required code.
+
+
+
+## PROMPT 2
+
+Thank you for your awesome response, please rewrite the index.html body section to correct the navigation in the header and footer sections.
+
+REQUIRED PAGES
+* Home
+* About
+** Privacy Policy
+** Terms
+* Properties
+** Property Details
+* Investment Guide
+* FAQs
+* Blog
+** Blog Details
+* Contact
+* 404
+
+On large screens: 
+The Nav should have the following shown: Home, About (Investment guide, Blog, Privacy policy, Terms will be dropdowns under About), Properties and contact.
+And the footer should have all the nav links apart from: Property details, Blog detals and 404. 
+
+On Small screens:
+Nav should have same links as on large screens
+No nav links on Footer
+
+Side note:
+Keep the "Book Inspection" button intact.
+
+Please also make sure all cards (Property cards, testimonials card, etc) used in the website have the frosted glass effect applied 
+
+Write the complete code
+
+
+
+## PROMPT 3
+
+Thank you for this beautiful response, I love it.
+Still keeping the same consistency from the previous design, and repeating the same unchanged header and footer across all pages, design the following pages:
+* About page: A simple about page for the company
+* Properties page: the page should be divided into sections for categories including estate properties, empty lots, condo properties etc all on well-formatted frosted-glass property cards. About 4 frosted-glass property cards per row on md to lg screens per section with trust badges, hover animation, wishlist icon, location, a learn more button that leads to the property details page
+* Contact Page: A nicely designed contact page including a section with links to the social media pages including facebook, linkedin, youtube, Instagram, WhatsApp and finally a simple contact form for enquiries on a frosted-glass card.
+* 404 page: A simple page still maintaining the original glassmorphic design for both header and footer but showing only an image of a broken robot and a bold text reading "404" and a supporting text directing the user to navigate to another page.

@@ -15,7 +15,7 @@ No installation needed. This is a static site.
 open index.html
 
 # Option B — serve it locally (recommended, avoids any file:// quirks)
-npx serve .
+npm run dev
 # or
 python3 -m http.server 8000
 ```
@@ -44,7 +44,7 @@ explorer-homes/
 ├── terms.html                   Terms of Service
 │
 ├── assets/
-│   ├── css/styles.css           Custom CSS layer (animations, glass, dark mode)
+│   ├── css/input.css           Custom CSS layer (animations, glass, dark mode)
 │   ├── js/main.js               All interactive behavior (single file, modular)
 │   ├── images/                  Drop optimized local images here if you move off Unsplash
 │   ├── icons/                   Spare icon assets
