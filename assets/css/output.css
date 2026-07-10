@@ -378,6 +378,12 @@
   .table {
     display: table;
   }
+  .h-0 {
+    height: 0;
+  }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
   .h-7 {
     height: calc(var(--spacing) * 7);
   }
@@ -416,6 +422,9 @@
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
