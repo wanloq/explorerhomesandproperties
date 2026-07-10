@@ -61,14 +61,14 @@
   <header class="fixed top-0 left-0 w-full z-50 bg-primary/70 backdrop-blur-lg shadow-md text-white">
     <div class="container mx-auto flex items-center justify-between py-4 px-5">
       <!-- Logo -->
-      <a href="#" class="flex items-center space-x-6 text-white font-bold text-xl" aria-label="Explorer Homes Homepage">
+      <a href="./index.html" class="flex items-center space-x-6 text-white font-bold text-xl" aria-label="Explorer Homes Homepage">
         <img src="./assets/images/explorer-logo.png" alt="explorerhomes Logo" class="max-h-10 max-w-14 md:max-h-20">
                 <span class="hidden sm:inline">Explorer Homes And Properties</span>
       </a>
 
       <!-- Desktop Navigation (visible from md breakpoint) -->
       <nav class="hidden md:flex items-center space-x-6 text-sm font-medium" aria-label="Main navigation">
-        <a href="#" class="hover:text-gold transition">Home</a>
+        <a href="./index.html" class="hover:text-gold transition">Home</a>
 
         <!-- About Dropdown using <details> -->
         <details class="relative group">
@@ -119,7 +119,7 @@
       <!-- Mobile Menu (revealed by peer-checked) -->
       <div
         class="hidden peer-checked:flex flex-col absolute top-full left-0 w-full bg-primary/95 backdrop-blur-lg md:hidden py-6 px-6 space-y-4 text-sm font-medium z-40">
-        <a href="#" class="hover:text-gold transition">Home</a>
+        <a href="./index.html" class="hover:text-gold transition">Home</a>
 
         <!-- About Dropdown in Mobile – using <details> for native toggle -->
         <details>
@@ -161,7 +161,7 @@
   <main>
     <!-- ========== HERO SECTION ========== -->
     <section class="relative h-[90vh] md:h-[85vh] flex items-center pt-8 pb-16 md:pt-16" style="
-          background-image: url(&quot;https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80&quot;);
+          background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
           background-size: cover;
           background-position: center;
         ">
@@ -257,7 +257,7 @@
           <!-- Card 1 – Glassmorphic -->
           <div class="group relative backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
             <div class="h-48 bg-cover bg-center" style="
-                  background-image: url(&quot;https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&quot;);
+                  background-image: url('./assets/images/1.avif');
                 "></div>
             <button class="absolute top-4 right-4 text-gold text-xl">
               <i class="fa-regular fa-heart"></i>
@@ -287,7 +287,7 @@
           <div
             class="group relative backdrop-blur-md bg-white/60 border border-white/40 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
             <div class="h-48 bg-cover bg-center" style="
-                  background-image: url(&quot;https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&quot;);
+                  background-image: url('./assets/images/2.avif');
                 "></div>
             <button class="absolute top-4 right-4 text-gold text-xl">
               <i class="fa-regular fa-heart"></i>
@@ -314,7 +314,7 @@
           <div
             class="group relative backdrop-blur-md bg-white/60 border border-white/40 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
             <div class="h-48 bg-cover bg-center" style="
-                  background-image: url(&quot;https://images.unsplash.com/photo-1600566753086-00f18f6b0050?w=600&quot;);
+                  background-image: url('./assets/images/3.avif');
                 "></div>
             <button class="absolute top-4 right-4 text-gold text-xl">
               <i class="fa-regular fa-heart"></i>
@@ -342,7 +342,7 @@
           <div
             class="group relative backdrop-blur-md bg-white/60 border border-white/40 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
             <div class="h-48 bg-cover bg-center" style="
-                  background-image: url(&quot;https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&quot;);
+                  background-image: url('./assets/images/4.avif');
                 "></div>
             <button class="absolute top-4 right-4 text-gold text-xl">
               <i class="fa-regular fa-heart"></i>
@@ -476,12 +476,13 @@
         <!-- Horizontally scrollable, CSS snap -->
         <div class="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-4 scrollbar-hide" role="list"
           aria-label="Client testimonials">
+
           <!-- Testimonial Card 1 -->
           <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+            class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Adesua E."
+              <img src="./assets/images/q-1.webp" alt="Adesua E."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Adesua E.</p>
@@ -498,12 +499,13 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold hover:text-primary"><i
                 class="fa-brands fa-twitter"></i> @adesua_homes</a>
           </div>
-          <!-- Repeat pattern for 7 more cards (all frosted glass) -->
+
+          <!-- Testimonial Card 2 -->
           <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+            class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Chuka O."
+              <img src="./assets/images/p-1.webp" alt="Chuka O."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Chuka O.</p>
@@ -520,11 +522,13 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold"><i
                 class="fa-brands fa-linkedin-in"></i> ChukaObi</a>
           </div>
+
+          <!-- Testimonial Card 3 -->
           <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+            class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Funmi A."
+              <img src="./assets/images/q-2.webp" alt="Funmi A."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Funmi A.</p>
@@ -541,11 +545,13 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold"><i
                 class="fa-brands fa-instagram"></i> @funmilagos</a>
           </div>
+
+          <!-- Testimonial Card 4 -->
           <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+            class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Emeka N."
+              <img src="./assets/images/p-2.webp" alt="Emeka N."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Emeka N.</p>
@@ -561,11 +567,13 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold"><i
                 class="fa-brands fa-twitter"></i> @emekaventures</a>
           </div>
+
+          <!-- Testimonial Card 5 -->
           <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+            class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Bimpe K."
+              <img src="./assets/images/q-3.webp" alt="Bimpe K."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Bimpe K.</p>
@@ -582,11 +590,12 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold"><i
                 class="fa-brands fa-facebook"></i> BimpeHomes</a>
           </div>
-          <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+
+          <!-- Testimonial Card 6 -->
+          <div class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Tunde S."
+              <img src="./assets/images/p-3.webp" alt="Tunde S."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Tunde S.</p>
@@ -603,11 +612,12 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold"><i
                 class="fa-brands fa-linkedin-in"></i> TundeSmarthomes</a>
           </div>
-          <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+
+          <!-- Testimonial Card 7 -->
+          <div class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Ngozi M."
+              <img src="./assets/images/q-4.webp" alt="Ngozi M."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">Ngozi M.</p>
@@ -624,11 +634,12 @@
             <a href="#" class="inline-flex items-center gap-1 mt-4 text-xs text-gold"><i
                 class="fa-brands fa-instagram"></i> @ngozi.homes</a>
           </div>
-          <div
-            class="min-w-[300px] md:min-w-[350px] backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
+
+          <!-- Testimonial Card 8 -->
+          <div class="min-w-75 md:min-w-87.5 backdrop-blur-md bg-white/80 border border-white/30 rounded-2xl p-6 snap-center shadow-lg"
             role="listitem">
             <div class="flex items-center gap-4 mb-4">
-              <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="David O."
+              <img src="./assets/images/p-4.webp" alt="David O."
                 class="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p class="font-semibold text-primary">David O.</p>
@@ -654,7 +665,7 @@
     class="fixed bottom-0 left-0 w-full z-40 backdrop-blur-lg bg-primary/70 text-white text-sm py-3 border-t border-white/20">
     <div class="container mx-auto flex flex-wrap items-center justify-between gap-4 px-6">
       <!-- Logo -->
-      <a href="#" class="flex items-center space-x-6 text-white font-bold text-xl" aria-label="Explorer Homes Homepage">
+      <a href="./index.html" class="flex items-center space-x-6 text-white font-bold text-xl" aria-label="Explorer Homes Homepage">
         <img src="./assets/images/explorer-logo.png" alt="explorerhomes Logo" class="max-h-10 max-w-14 md:max-h-20">
       </a>
       <!-- Social Icons -->
@@ -667,7 +678,7 @@
 
       <!-- Footer Navigation (hidden on mobile, shown on md and up) -->
       <nav class="hidden md:flex flex-wrap gap-x-4 gap-y-1 text-xs font-medium" aria-label="Footer navigation">
-        <a href="#" class="hover:text-gold transition">Home</a>
+        <a href="./index.html" class="hover:text-gold transition">Home</a>
         <a href="./about.html" class="hover:text-gold transition">About</a>
         <a href="./properties.html" class="hover:text-gold transition">Properties</a>
         <a href="./404.html" class="hover:text-gold transition">Investment Guide</a>

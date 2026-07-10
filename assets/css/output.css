@@ -495,6 +495,9 @@
   .min-w-45 {
     min-width: calc(var(--spacing) * 45);
   }
+  .min-w-75 {
+    min-width: calc(var(--spacing) * 75);
+  }
   .min-w-\[180px\] {
     min-width: 180px;
   }
@@ -1242,6 +1245,11 @@
   .md\:max-h-20 {
     @media (width >= 48rem) {
       max-height: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:min-w-87\.5 {
+    @media (width >= 48rem) {
+      min-width: calc(var(--spacing) * 87.5);
     }
   }
   .md\:min-w-\[350px\] {
